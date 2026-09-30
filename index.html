@@ -172,7 +172,7 @@ td.muted { color: var(--text3); }
         <div class="wt-pills">
           <span class="wt-pill init">Initiatives · custom %</span>
           <span class="wt-pill perf">Perf Metrics · custom %</span>
-          <span class="wt-pill pulse">Pulse Survey · custom %</span>
+          <span class="wt-pill pulse">Leap Survey · custom %</span>
           <span class="wt-pill cross">Cross-Dept · custom %</span>
         </div>
       </div>
@@ -197,8 +197,8 @@ td.muted { color: var(--text3); }
           <div class="form-group"><label>Initiatives weightage (0–1)</label><input type="number" id="wInit" placeholder="e.g. 0.35" min="0" max="1" step="0.01"></div>
           <div class="form-group"><label>Performance metrics score</label><input type="number" id="fPerf" placeholder="0–100" min="0" max="100" step="0.01"></div>
           <div class="form-group"><label>Perf metrics weightage (0–1)</label><input type="number" id="wPerf" placeholder="e.g. 0.25" min="0" max="1" step="0.01"></div>
-          <div class="form-group"><label>Pulse survey score</label><input type="number" id="fPulse" placeholder="0–100" min="0" max="100" step="0.01"></div>
-          <div class="form-group"><label>Pulse survey weightage (0–1)</label><input type="number" id="wPulse" placeholder="e.g. 0.30" min="0" max="1" step="0.01"></div>
+          <div class="form-group"><label>Leap Survey score</label><input type="number" id="fPulse" placeholder="0–100" min="0" max="100" step="0.01"></div>
+          <div class="form-group"><label>Leap Survey weightage (0–1)</label><input type="number" id="wPulse" placeholder="e.g. 0.30" min="0" max="1" step="0.01"></div>
           <div class="form-group"><label>Cross-dept survey score</label><input type="number" id="fCross" placeholder="0–100" min="0" max="100" step="0.01"></div>
           <div class="form-group"><label>Cross-dept weightage (0–1)</label><input type="number" id="wCross" placeholder="e.g. 0.10" min="0" max="1" step="0.01"></div>
         </div>
@@ -225,7 +225,7 @@ td.muted { color: var(--text3); }
       <div class="tbl-scroll">
         <table><thead><tr>
           <th>Manager</th><th>Dept</th><th>Qtr</th>
-          <th>Initiatives</th><th>Perf Metrics</th><th>Pulse Survey</th><th>Cross-Dept</th>
+          <th>Initiatives</th><th>Perf Metrics</th><th>Leap Survey</th><th>Cross-Dept</th>
           <th class="score-th">Weighted Score</th><th></th>
         </tr></thead><tbody id="qBody"></tbody></table>
       </div>
@@ -251,7 +251,7 @@ td.muted { color: var(--text3); }
           <th>#</th><th>Manager</th><th>Department</th><th>Quarter</th>
           <th>Initiatives <span class="wt-pct">wt</span></th>
           <th>Perf Metrics <span class="wt-pct">wt</span></th>
-          <th>Pulse Survey <span class="wt-pct">wt</span></th>
+          <th>Leap Survey <span class="wt-pct">wt</span></th>
           <th>Cross-Dept <span class="wt-pct">wt</span></th>
           <th class="score-th">Weighted Score</th>
         </tr></thead><tbody id="qBody2"></tbody></table>
